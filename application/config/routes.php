@@ -40,7 +40,7 @@
 
 $route['default_controller'] = "produtos";
 $route['404_override'] = '';
-
+$route['produtos/(:num)'] = 'produtos/mostra/$1';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
