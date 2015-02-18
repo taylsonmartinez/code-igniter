@@ -42,7 +42,7 @@ class Produtos extends CI_Controller {
             $this->produtos_model->salva($produto);
 
             $this->session->set_flashdata("success", "Produto salvo com sucesso");
-            redirect("/");    
+            redirect("/");
         } else{
             $this->load->view("produtos/formulario");
         }
