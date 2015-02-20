@@ -1,12 +1,4 @@
-<html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href=" <?= base_url("/css/bootstrap.css")?>">
-</head>
-<body>
 <h1>Cadastro de Produtos</h1>
-<div class="container">
-
 <?php
     echo form_open("produtos/novo");
 
@@ -49,6 +41,3 @@
 
     echo form_close();
 ?>
-</div>
-    </body>
-</html>
